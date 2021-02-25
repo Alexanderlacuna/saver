@@ -14,6 +14,7 @@ class CorrelationAPITest(unittest.TestCase):
     def test_corr_compute(self):
         """Test that the correct response in correlation"""
 
+
         sample_vals = """{"C57BL/6J":"7.197","DBA/2J":"7.148","B6D2F1":"6.999"}"""
         post_data = {
             "corr_return_results": 100,
